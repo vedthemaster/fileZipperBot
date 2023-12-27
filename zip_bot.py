@@ -4,12 +4,12 @@ import os
 import time
 
 
-API_KEY = "YOUR_API_TOKEN"
+API_KEY = ""
 
 bot = telebot.TeleBot(API_KEY)
 
 global messageVar
-foldername = ""
+foldername = "_all_save_bot_1"
 
 @bot.message_handler(commands=['start'])
 def start(message):
